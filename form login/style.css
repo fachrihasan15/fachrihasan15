@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('h.jpeg'); /* Menggunakan URL gambar sebagai latar belakang */
+    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh layar */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi penuh viewport */
+    margin: 0;
+    color: white; /* Mengubah warna teks menjadi putih untuk visibilitas */
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.7); /* Latar belakang hitam semi-transparan untuk form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff; /* Warna putih untuk judul */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna lebih gelap saat hover */
+}
+
+#message {
+    margin-top: 10px;
+    text-align: center;
+}
